@@ -10,10 +10,6 @@ public class DefaultDrive extends Command {
     }
 
     @Override
-    protected void initialize() {
-    }
-
-    @Override
     protected void execute() {
     		Robot.driveBase.driveWithJoystick();
     }
